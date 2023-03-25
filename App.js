@@ -6,6 +6,7 @@ import { AppNavigator } from './components/AppNavigator';
 
 
 const App = () => (
+  // wrap entire app in a NavigationContainer from react-navigation, to have internal navigation simplified for us
   <NavigationContainer>
     <AppNavigator />    
   </NavigationContainer>
